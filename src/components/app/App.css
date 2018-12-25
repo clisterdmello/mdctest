@@ -1,0 +1,69 @@
+body {
+  color: #000;
+}
+
+.App-header {
+  background-color: #032363;
+  text-align: center;
+  line-height: 60px;
+  color: #fff;
+}
+
+.utility {
+  display: block;
+  padding: 10px 0;
+  font-size: 20px;
+  max-width: 768px;
+  margin: 40px auto 0 auto;
+}
+
+.utility input {
+  display: inline-block;
+  height: 50px;
+}
+
+.utility input[type="search"] {
+  width: 66%;
+  margin: 0 10% 0 0;
+  border-radius: 5px;
+  border: 1px solid #dcdcdc;
+}
+
+.utility input[type="button"], .utility input[type="submit"], .btn{
+  width: 20%;
+  background: #032363;
+  border-radius: 7px;
+  border: 0;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.utility input[type="button"]:disabled {
+  background: #eee;
+}
+
+.prl0 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.addContactForm {
+  display: block;
+  position: relative;
+  width: 100%;
+  padding-bottom: 30px;
+}
+
+.addContactForm label, .addContactForm label {
+  width: 18%;
+  display: inline-block;
+  margin: 20px 0;
+}
+
+.contactCard {
+  width: 45%;
+  display: inline-block;
+  border: 1px solid #032363;
+  margin: 2%;
+}
